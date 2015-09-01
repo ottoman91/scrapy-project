@@ -15,4 +15,4 @@ class SchoolItem(scrapy.Item):
     rating = scrapy.Field()
     enrollment = scrapy.Field() 
     grade_span = scrapy.Field()
-    
+    state = scrapy.Field()    

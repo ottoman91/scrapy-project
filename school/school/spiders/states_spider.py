@@ -7,7 +7,8 @@ class StateSpider(scrapy.Spider):
     start_urls = [
         "http://www.city-data.com/indexes/schools/"
        
-    ] 
+    ]  
+
     rate = 1 #maximum amount of pages downloaded in one sec
     def __init__(self): 
         self.download_delay = 1/float(self.rate)
